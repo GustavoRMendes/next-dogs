@@ -4,7 +4,7 @@ import Link from 'next/link'
 import React from 'react'
 
 export default function Header () {
-  const user = true
+  const user = false
   return (
     <>
       <header className={styles.header}>
