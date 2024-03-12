@@ -1,10 +1,10 @@
 import React from 'react'
 type User = {
   params: {
-    user:string
+    user: string
   }
 }
-export default function PerfilUserPage({params} : User) {
+export default function PerfilUserPage ({ params }: User) {
   return (
     <div>
       <h1>Perfil User: {params.user}</h1>
