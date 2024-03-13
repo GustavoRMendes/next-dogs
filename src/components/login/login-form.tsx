@@ -20,8 +20,7 @@ export default function LoginForm () {
       <form action={Login}>
         <Input label='Usuário' name='username' type='text' />
         <Input label='Senha' name='password' type='password'/>
-        {/* <input type="text" name='username' placeholder='usuário' />
-        <input type="password" name='password' placeholder='senha' /> <br/> */}
+        <br/>
         <FormButton />
       </form>
     </>
