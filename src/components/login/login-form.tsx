@@ -18,7 +18,7 @@ export default function LoginForm () {
     <>
       <form action={Login}>
         <input type="text" name='username' placeholder='usuário' />
-        <input type="password" name='password' placeholder='senha' />
+        <input type="password" name='password' placeholder='senha' /> <br/>
         <FormButton />
       </form>
     </>
