@@ -7,8 +7,8 @@ type InputProps = React.ComponentProps<'input'> & {
 export default function Input({label, ...props} : InputProps) {
   return (
     <>
-      <label htmlFor=''>{label}</label>
-      <input type="text" {...props}/>
+      <label htmlFor={props.name}>{label}</label>
+      <input type="text" id={props.name} {...props}/>
     </> 
   )
 }
